@@ -24,7 +24,7 @@ public class AnimalRace {
 			
 			moveNo = 1 + m.nextInt(10);
 
-			tortoise += adamu.move(moveNo);
+			tortoise += adamu.move(moveNo); 
 			hare += speedy.move(moveNo);
 			
 			if(tortoise < 1 ) {
